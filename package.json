@@ -1,6 +1,6 @@
 {
   "name": "pi-rounded-tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rounded-corner frames for pi's built-in tool calls and results. A minimal alternative to colored shells — just the corners.",
   "author": "OrionPax",
   "keywords": [
@@ -10,7 +10,9 @@
     "rounded-corners"
   ],
   "pi": {
-    "extensions": ["./extensions"],
+    "extensions": [
+      "./extensions"
+    ],
     "image": "https://raw.githubusercontent.com/orionpax1997/pi-rounded-tools/main/screenshot.png"
   },
   "license": "MIT",
