@@ -1,6 +1,6 @@
 {
   "name": "pi-rounded-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rounded-corner frames for pi's built-in tool calls and results. A minimal alternative to colored shells — just the corners.",
   "keywords": [
     "pi-package",
