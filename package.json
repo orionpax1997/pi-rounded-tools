@@ -2,28 +2,24 @@
   "name": "pi-rounded-tools",
   "version": "0.1.1",
   "description": "Rounded-corner frames for pi's built-in tool calls and results. A minimal alternative to colored shells — just the corners.",
+  "author": "OrionPax",
   "keywords": [
     "pi-package",
-    "pi",
     "pi-extension",
-    "ui",
     "pi-theme",
-    "theme"
+    "rounded-corners"
   ],
+  "pi": {
+    "extensions": ["./extensions"],
+    "image": "https://raw.githubusercontent.com/orionpax1997/pi-rounded-tools/main/screenshot.png"
+  },
   "license": "MIT",
   "type": "module",
   "files": [
-    "rounded-tools.ts",
+    "extensions/",
     "README.md",
-    "LICENSE",
-    "screenshot.png"
+    "LICENSE"
   ],
-  "pi": {
-    "extensions": [
-      "./rounded-tools.ts"
-    ],
-    "image": "https://raw.githubusercontent.com/orionpax1997/pi-rounded-tools/main/screenshot.png"
-  },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",
     "@earendil-works/pi-tui": "*"
@@ -35,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/orionpax1997/pi-rounded-tools/issues"
   },
-  "homepage": "https://github.com/orionpax1997/pi-rounded-tools#readme"
+  "homepage": "https://github.com/orionpax1997/pi-rounded-tools"
 }
